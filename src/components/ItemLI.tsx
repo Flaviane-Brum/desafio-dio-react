@@ -23,7 +23,7 @@ const ItemLI = ({
   return (
     <li className=" w-[365px] rounded-lg  border-4 border-blue-500 bg-white p-4 shadow-md hover:border-pink-500">
       <a
-        href={`${html_url}/${name}`}
+        href={`${html_url}`}
         target="_blank"
         rel="noreferrer"
         className="flex h-full flex-col "
